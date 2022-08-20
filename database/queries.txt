@@ -1,0 +1,8 @@
+dB queries used:- 
+create table Users (id int auto_increment, name varchar(255) unique, password varchar(255), role int, primary key auto_increment (id));
+create table UserRoles (id int auto_increment, role varchar(255) , primary key auto_increment (id));
+    insert into UserRoles(role) values('Admin');//1
+    insert into UserRoles(role) values('Seller');//2
+    insert into UserRoles(role) values('Supporter');//3
+    insert into UserRoles(role) values('Customer');//4
+
